@@ -10,6 +10,10 @@
     <ul type="none">
         <li>Taman Kebalen ,Blok F1 No 41</li>
     </ul>
+    <h4>No Telepon</h4>
+    <ul type="none">
+        <li>085717758849</li>
+    </ul>
     <h4>Tempat Lahir</h4>
     <ul type="none">
         <li>Kebumen</li>
