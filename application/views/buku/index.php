@@ -51,6 +51,7 @@
                             <td>
                                 <a href="<?= base_url('buku/ubahBuku/') . $b['id']; ?>" class="badge badge-info"><i class="fas fa-edit"></i> Ubah</a>
                                 <a href="<?= base_url('buku/hapusbuku/') . $b['id']; ?>" onclick="return confirm('Kamu yakin akan menghapus <?= $judul . ' ' . $b['judul_buku']; ?> ?');" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a>
+
                             </td>
                         </tr>
                     <?php } ?>
@@ -84,7 +85,7 @@
                             <option value="">Pilih Kategori</option>
                             <?php
                             foreach ($kategori as $k) { ?>
-                                <option value="<?= $k['id']; ?>"><?= $k['kategori']; ?></option>
+                                <option value="<?= $k['id_kategori']; ?>"><?= $k['nama_kategori']; ?></option>
                             <?php } ?>
                         </select>
                     </div>
