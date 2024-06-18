@@ -135,7 +135,7 @@ class Buku extends CI_Controller
         $kategori = $this->ModelBuku->joinKategoriBuku(['buku.id' => $this->uri->segment(3)])->result_array();
         foreach ($kategori as $k) {
             $data['id'] = $k['id_kategori'];
-            $data['k'] = $k['kategori'];
+            $data['k'] = $k['nama_kategori'];
         }
         $data['kategori'] = $this->ModelBuku->getKategori()->result_array();
 
